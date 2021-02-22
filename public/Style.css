@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Sawarabi Gothic', sans-serif;
+    background-color: #232e49;
+}
+.container{
+    width: 75%;
+    height: 1025px;
+    margin: auto;
+    padding: 10px;
+    display: table;
+}
+
+table{
+    width: 100%;
+    background-color: #1e2638;
+    border-radius: 2px;
+    border: solid;
+}
+td, th {
+    text-align: left;
+    padding: 8px;
+    width: 25%;
+    color: rgb(209, 204, 204);  
+}
+tr:hover{
+    background-color: #0E1119;
+}
+th{
+    background-color: black;
+    color: rgb(209, 204, 204);
+}
+td img{
+    width: 10%;
+}
+
+tr:nth-child(even) {
+    background-color: #323c55;
+}
+tr:nth-child(even):hover {
+    background-color: #0E1119;
+}
+@keyframes changeGreen {
+    from {color: white}
+    to {color: rgb(9, 177, 9)}
+  }
+@keyframes changeRed {
+    from {color: white}
+    to {color:rgb(184, 7, 7)}
+  }
+.form-inline{
+    margin-top: 10px;
+}
+.form-inline input{
+      display: inline-block;
+      padding: 16px 50px;     
+}
+.form-inline button{
+    display: inline-block;
+    padding: 16px 50px;
+    background-color: #151b29;
+    color: white;
+    border-radius: 2px;
+    border: solid #151b29;
+}
+
+  
