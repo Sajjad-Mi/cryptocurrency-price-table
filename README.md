@@ -11,7 +11,7 @@ Open the [localhost:3000](http://localhost:3000/table)
 # Description
 This is just a simple price table using node js, express. <br />
 
-# Documentation and Tutorial
+# Documentation
 This is the API which I use<br />
 [coingecko](https://www.coingecko.com/en/api) <br />
 
