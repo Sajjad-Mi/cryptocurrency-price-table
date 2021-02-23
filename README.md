@@ -2,7 +2,7 @@
 This is a simple price table 
 # setup
 ```
-git clone https://github.com/Sajjad-Mi/node-prac.git
+git clone https://github.com/Sajjad-Mi/cryptocurrency-price-table.git
 npm install 
 node app
 ```
